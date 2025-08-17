@@ -4,28 +4,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meine erste Webseite</title>
+    <title>Semantisches HTML5 Beispiele</title>
   </head>
-
   <body>
-    <h1>Willkommen auf meiner Webseite</h1>
-    <div>
-      <h2>Das ist ein Blog-Artikel</h2>
-      <p>Das ist mein großartiger Blog-Artikel</p>
+    <!-- Header -->
+    <header>
+      <!-- Figure -->
+      <figure>
+        <img src="#" alt="Logo" />
+      </figure>
+      <!-- Navigation -->
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Über uns</a>
+        <a href="#">Kontakt</a>
+      </nav>
+      <h1>Das ist der Header</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ratione
-        placeat mollitia reiciendis nihil a voluptatem optio repellendus
-        laboriosam fugiat esse facere culpa quis quidem, quos, maiores molestiae
-        explicabo. Aut nulla, voluptatem incidunt cum obcaecati accusamus nam
-        impedit <strong>repellat nesciunt?</strong> Cumque quibusdam, magni
-        commodi blanditiis tempora corporis nihil cum dolorem dignissimos sed
-        eveniet ratione explicabo iure natus, totam temporibus dolore. Inventore
-        <em>explicabo maxime porro dignissimos</em> sapiente libero vitae nihil
-        voluptate odit consequatur, minima nulla animi soluta odio consequuntur
-        autem repellendus labore! Necessitatibus deserunt omnis culpa tenetur
-        eveniet, ea dolores! Repellat reiciendis dolor repudiandae eius tempora
-        sapiente, id nemo praesentium earum.
+        Der Header beinhaltet <strong>Logo</strong>,
+        <strong>Navigation</strong>,
+        <strong>einmalige Überschrift (h1)</strong> und die
+        <strong>Einleitung</strong> der Webseite.
       </p>
-    </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Article -->
+      <article>
+        <h2>Das ist ein Blog-Artikel</h2>
+        <p>Das ist mein großartiger Blog-Artikel</p>
+        <figure><img src="#" alt="Bild zum Blog-Artikel" /></figure>
+        <figcaption><p>Das ist eine Bildunterschrift</p></figcaption>
+        <p>
+          Ein Artikel ist ein
+          <strong>unabhängig, für sich stehender</strong>
+          Inhalt, beispielsweise
+          <em>Blog-Posts, Foren-Posts und Zeitungsartikel.</em>
+        </p>
+        <p>
+          Er beinhaltet in der Regel <strong>eine Überschrift (h2)</strong>,
+          <strong>Inhalt</strong>, <strong>Bilder</strong> und
+          <strong>Bildunterschriften</strong>.
+        </p>
+      </article>
+      <!-- Section -->
+      <section>
+        <h2>Das ist eine Sektion</h2>
+        <p>
+          Eine Sektion esteht aus einer
+          <strong>Ansammlung von zusammengehörigen Content</strong> mit einer
+          <strong>gemeinsamen Überschrift (h2)</strong>
+        </p>
+        <p>
+          Eine <strong>Navigation</strong> beinhaltet nur Links, die für die
+          Navigation der Webseite relevant sind.
+        </p>
+        <p>
+          <strong>Sektionen</strong>, <strong>Artikel</strong>,
+          <strong>Aside</strong> können in einem
+          <strong>Main-Tag</strong> zusammengefasst werden. Das
+          <strong>Main-Tag</strong> umschließt den sich
+          <strong> nicht widerholenden Content </strong> einer Webseite und
+          befindet sich <strong>zwischen Header und Footer</strong>.
+        </p>
+        <p>
+          Der <strong>Footer</strong> beinhaltet Informationen zum
+          <strong>Autor</strong>, dem <strong>Copyright</strong> und
+          <strong>Links</strong>, beispielsweise das <strong>Impressum</strong>,
+          <strong>Rechtstexte</strong> und <strong>Cookie-Richtlinien</strong>.
+        </p>
+      </section>
+      <!-- Aside -->
+      <aside>
+        <h3>Das ist ein Aside</h3>
+        <p>
+          Ein Aside beinhaltet <strong>zusätliche Informationen</strong> zum
+          <strong>Hauptcontent (Main)</strong>
+          und wird in der Regel in einer kleinen Spalte neben dem Hauptcontent
+          angezeigt.
+        </p>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Semantisches HTML5 Beispiele</p>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutzerklärung</a>
+      <a href="#">Cookie-Richtlinien</a>
+    </footer>
   </body>
 </html>
