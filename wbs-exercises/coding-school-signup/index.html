@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding School Sign Up</title>
+  </head>
+  <body>
+    <!-- Header: Short Introduction, Call to Action -->
+    <header id="header" class="header">
+      <h1>Level up your future — Start coding today with Code Academy!</h1>
+      <p>
+        Welcome to <strong>Code Academy</strong>, your gateway to the future of
+        tech! We offer hands-on, beginner-friendly courses in
+        <strong>Web Development</strong> and
+        <strong>Artificial Intelligence</strong>, designed to take you from
+        novice to job-ready. Whether you're looking to build dynamic websites
+        and apps or explore the power of AI, our expert-led curriculum and
+        supportive community will help you master in-demand skills and launch
+        your tech career with confidence!
+      </p>
+      <p>
+        <strong>Join thousands of learners and build real-world skills!</strong>
+      </p>
+    </header>
+    <!-- Main: Section Signup Form -->
+    <main>
+      <section id="section-sign-up-form" class="section">
+        <h2>Code Academy Signup Form</h2>
+        <form action="#" method="get">
+          <!-- Fieldset: Personal Information -->
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email">E-Mail:</label>
+            <input type="email" name="email" id="email" required />
+            <label for="tel">Phone:</label>
+            <input type="tel" name="tel" id="tel" required />
+          </fieldset>
+          <!-- Fieldset: Course Information -->
+          <fieldset>
+            <legend>Course Information</legend>
+            <div>
+              <label for="start-date">Starting Month:</label>
+              <input
+                type="month"
+                name="start-date"
+                id="start-date"
+                min="2025-09"
+                max="2026-12"
+                required
+              />
+              <input
+                type="radio"
+                value="full-time"
+                name="time"
+                id="full-time"
+                checked
+              />
+              <label for="full-time">full-time</label>
+              <input
+                type="radio"
+                value="part-time"
+                name="time"
+                id="part-time"
+              />
+              <label for="part-time">part-time</label>
+            </div>
+            <div>
+              <label for="course-select"> Choose a course:</label>
+              <select name="courses" id="course-select" required>
+                <option value="" disabled selected>
+                  ---Choose a course---
+                </option>
+                <option value="wdg">Web- & App Development German</option>
+                <option value="wde">Web- & App Development English</option>
+                <option value="dae">Data Analytics English</option>
+                <option value="aibe">AI for Business English</option>
+              </select>
+            </div>
+          </fieldset>
+          <!-- Fieldset: Terms of Service Agreement -->
+          <fieldset>
+            <legend>Terms of Service</legend>
+            <div>
+              <label for="tos">
+                <input
+                  type="checkbox"
+                  value="agree"
+                  name="tos"
+                  id="tos"
+                  required
+                />
+                I agree to the <a href="#"> Terms of Service </a>
+              </label>
+            </div>
+          </fieldset>
+          <div><button type="submit">sign up</button></div>
+        </form>
+      </section>
+    </main>
+    <!-- Footer: Copyright -->
+    <footer>
+      <p>© 2025 Code Academy</p>
+    </footer>
+  </body>
+</html>
