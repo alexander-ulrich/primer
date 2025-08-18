@@ -9,6 +9,7 @@
 }
 figure img {
   width: 30%;
+  max-width: 200px;
   display: inline-block;
   border-radius: 0.5rem;
   border: 0.1rem solid rgb(142, 142, 241);
