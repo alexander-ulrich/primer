@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header: Navigation -->
+    <header id="header" class="header">
+      <img
+        class="logo"
+        src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg"
+        alt="Foto von Tirachard Kumtanom: https://www.pexels.com/de-de/foto/544113/"
+      />
+
+      <nav id="nav-top" class="nav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main: Contact Data, Figure, Contact Form -->
+    <h1>Kontaktieren Sie uns</h1>
+    <main id="main-content" class="main">
+      <!-- Section: Contact Data -->
+      <section id="section-contact-data" class="section">
+        <ul>
+          <li>Café Aroma</li>
+          <li>Kaffeestraße 1</li>
+          <li>77777 Kaffeehausen</li>
+          <li>Telefon: <a href="tel:123456789"></a>123456789</li>
+          <li>
+            Email:
+            <a href="mailto:kontakt@cafe-aroma.de">kontakt@cafe-aroma.de</a>
+          </li>
+        </ul>
+      </section>
+      <!-- Figure: Coffee -->
+      <figure id="figure2" class="figure">
+        <img
+          src="https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg"
+          alt="Photo by Porapak Apichodilok: https://www.pexels.com/photo/woman-holding-mug-of-cappuccino-373639/"
+          width="100%"
+        />
+      </figure>
+      <!-- Section: Contact Form -->
+      <section id="section-contact-form" class="section">
+        <form action="" method="get">
+          <fieldset>
+            <legend>Direktnachricht senden</legend>
+            <div class="label-input-div">
+              <label for="name">Name: </label
+              ><input type="text" name="name" id="name" required />
+            </div>
+            <div class="label-input-div">
+              <label for="email">E-Mail: </label
+              ><input type="email" name="email" id="email" required />
+            </div>
+            <div class="label-input-div">
+              <label for="nachricht">Nachricht:</label
+              ><textarea name="nachricht" id="nachricht" required></textarea>
+            </div>
+
+            <p><button type="submit">Senden</button></p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <!-- Footer: Copyright -->
+    <footer id="footer" class="footer">
+      <p>© 2025 Café Aroma</p>
+    </footer>
+  </body>
+</html>
