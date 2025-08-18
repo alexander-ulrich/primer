@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #aed9f1ff;
+}
+header {
+  padding: 2rem 4rem;
+  border-bottom: 2px solid #29213f;
+  text-align: center;
+}
+header p {
+  font-weight: bold;
+}
+header figure > img {
+  display: inline-block;
+  border-radius: 500px;
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  border: #29213f solid 2px;
+}
+h1 {
+  text-align: center;
+}
+section {
+  padding: 1em;
+  margin: 1em;
+  background-color: #efefef;
+}
+#section-features {
+  background-color: lightcoral;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.2em;
+  border: #29213f 0.1em solid;
+}
+section h2 {
+  padding-bottom: 1em;
+}
+section ol > li::marker {
+  font-weight: bold;
+}
+#section-gallery {
+  background-color: #efefef;
+}
+#section-gallery figure img {
+  width: 25%;
+  display: inline-block;
+  border: #29213f 1px solid;
+}
+#section-gallery figure {
+  display: inline;
+}
+footer {
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+}
+form {
+  width: 50%;
+}
+legend {
+  text-align: center;
+  font-weight: bold;
+}
+fieldset {
+  border-color: #29213f;
+  border-radius: 0.5em;
+  border: 0.1em solid;
+  background-color: lightcoral;
+}
+label {
+  font-weight: bold;
+}
+button {
+  border-radius: 1em;
+  background-color: blanchedalmond;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button:hover {
+  background-color: blueviolet;
+}
