@@ -3,15 +3,27 @@
   background-color: rgb(189, 241, 241);
   box-sizing: border-box;
 }
-
+@media (width < 500px) {
+  .section {
+    margin: 1rem !important;
+  }
+}
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+p {
+  line-height: 1.5em;
+}
 #header {
   text-align: center;
 }
+
 figure img {
   width: 30%;
   max-width: 200px;
   display: inline-block;
-  border-radius: 0.5rem;
+  border-radius: 2px;
   border: 0.1rem solid rgb(142, 142, 241);
 }
 
