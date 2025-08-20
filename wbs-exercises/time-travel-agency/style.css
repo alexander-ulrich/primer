@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  outline: 1px solid brown;
+}
+/* @media (950px< width >1000px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */
+/* @media (width<950px) {
+  .gallery {
+    grid-template-columns: repeat(9, 1fr);
+  }
+} */
+/* @media (width<460px) {
+  header {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+} */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  background-color: rgba(1, 1, 53, 0.8);
+  color: whitesmoke;
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+}
+.navbar {
+  background-color: transparent;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+section {
+  background-color: rgba(245, 245, 245, 0.521);
+  margin: 2rem;
+  padding: 1rem;
+  line-height: 1.4em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0;
+}
+section h2 {
+  color: rgb(255, 217, 0);
+  font-weight: lighter;
+}
+.gallery {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  place-items: center;
+  overflow: hidden;
+}
+.gallery-item {
+  /* width: 400px; */
+
+  align-self: center;
+  object-fit: cover;
+}
+footer {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  color: yellow;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  column-gap: 2rem;
+}
+
+.footer-links a {
+  color: aqua;
+  text-decoration: none;
+}
+
+.copyright {
+  display: block;
+}
